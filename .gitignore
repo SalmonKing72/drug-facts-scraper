@@ -81,6 +81,9 @@ typings/
 # Serverless directories
 .serverless/
 
+.DS_Store
+*.swp
+
 # FuseBox cache
 .fusebox/
 
