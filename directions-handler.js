@@ -19,7 +19,7 @@ module.exports = function (drugSetId) {
             });
         })
         .then(function(html) {
-            $('#anch_127', html).each(function() {
+            return $('#anch_127', html).each(function() {
                 $content = $(this).parent().find('.Section');
                 console.log($content.html());
                 return;
